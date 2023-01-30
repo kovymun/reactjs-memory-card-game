@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# ReactJS Memory Card Game (Front-End Web Development)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents:
 
-## Available Scripts
+- [Description](#description)
+- [Tools and Programming languages used](#tools-and-programming-languages-used)
+- [Installation guide](#installation-guide)
+- [Usage guide](#usage-guide)
+- [Credits Section](#credits-section)
 
-In the project directory, you can run:
+## Description:
 
-### `npm start`
+This is a **Front End web development learning project** - of a simple **Memory Card Game App** hosted in a fictitious online website entitled _HOUSE OF CARDS_. It was developed using front end tools ReactJS - JavaScript framework, and design tools CSS, Bootstrap V5 and React-Bootstrap library.
+The App allows the user to play a \_card-flip game\_ which works as follows:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- The user clicks on one card, which _flips-over_ to reveal an image.
+- The user then clicks on a second card which _flips-over_ to reveal another image.
+- Once both cards are _flipped over_, and the images _MATCH_, you **WIN** the game.
+- Once both cards are _flipped over_, and the images _DO NOT MATCH_, you **LOSE** the game.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tools and Programming languages used:
 
-### `npm test`
+- Code Editor - VS Code.
+- ReactJS - JavaScript Framework.
+- CSS.
+- Bootstrap V5.
+- React-Bootstrap library.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation Guide:
 
-### `npm run build`
+To install and use this project, **follow these guidelines**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Downloading the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Click the small arrow on the green **Code** button at the top right of the repository contents.
+- From the _drop-down options_, select **Download Zip.**
+- This will download the repository to your local machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once the repository has been downloaded, execute the following steps:
 
-### `npm run eject`
+- Open the **memory-game** folder in the VS code editor or editor of choice.
+- Take a moment to view how the project folders are structured.
+- In your command line interface, run **npm install** to install on the packages and dependencies.
+- Once packages and dependencies are installed, run **npm start** to start up the website/app.
+- Once your server is running, navigate to **localhost:3000** on your browser to view the app.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage Guide:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The HOUSE OF CARDS app consists of three pages:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- The Landing Page.
+- Mystery Mania - this holds the card game.
+- Mystery Mania Game Rules - page which explains to the user the rules of the game.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To play the game:
 
-## Learn More
+- Open VS code editor, or code editor of choice.
+- Open the **memory-game** folder with VS code editor.
+- In your command line interface, run **npm install** to install on the packages and dependencies.
+- Once packages and dependencies are installed, run **npm start** to start up the website/app
+- Once your server is running, navigate to **localhost:3000** on your browser to view the app.
+- Use the navigation bar to browse through the various pages of the _HOUSE OF CARDS_ app.
+- Click on the _Mystery Mania_ navigation link which routes you to the card game page.
+- There are a total of 8 cards, shuffled and dealt face down to form a grid.
+- The Card Game page has 3 option _buttons_ allowing the user to start a new game, quit the game and a help section, which directs the user to Game Rules page of the App.
+- To plat the game, click on one card to _flip the card over_ to reveal an image.
+- Click on the second card to _flip the card over_ to reveal an image.
+- Once both cards are _flipped over_, and the images **MATCH**, you **WIN** the game.
+- Once both cards are _flipped over_, and the images **DO NOT MATCH**, you **LOSE** the game.
+- You have a MAXIMUM of 2 attempts at any given turn.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Credits Section:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sole contributor to this project.

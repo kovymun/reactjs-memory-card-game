@@ -1,13 +1,153 @@
-body {
+/**HOUSE OF CARDS APP: CSS FILE**/
+/*KINDLY REFER TO THE END OF THIS DOCUMENT FOR ALL REFERENCES*/
+
+/* This webpage is styled using both CSS, Bootstrap V5 and React-Bootstrap components. */
+
+/* Removing the default styling */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/************************************************************************************************************************************************************/
+/* STYLING FOR THE NAVBAR AND NAV-MENU */
+.nav-link {
+  transition: transform 0.1s;
 }
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+/***********************************************************************************************************************************************************/
+/* STYLING FOR THE LANDING PAGE */
+.landing-window {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 91.3vh;
+}
+
+.landing-intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 45vh;
+  border-radius: 0.5em;
+}
+
+/************************************************************************************************************************************************************/
+/* STYLING FOR THE CARD GAME PAGE */
+.card-game-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.card-game-container {
+  width: 50%;
+  height: auto;
+}
+
+/* Styling for the cards */
+.front-img {
+  transform: rotateY(90deg);
+  transition: all ease-in 0.2s;
+  position: absolute;
+}
+
+.flipped .front-img {
+  height: 38vh;
+  transform: rotateY(0);
+  transition-delay: 0.2s;
+}
+
+.back-img {
+  height: 38vh;
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
+}
+
+.flipped .back-img {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
+
+/* 
+Styling of conditional color rendering elements for the game result.
+GREEN with flashing effect = WIN
+RED = LOSS
+*/
+.result-container {
+  width: 48%;
+}
+
+.result-win > h1 {
+  animation: 0.8s linear infinite flash_effect;
+}
+
+@keyframes flash_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+.result-win {
+  background-color: #38e54d;
+  outline: 2px solid black;
+}
+
+.result-lose {
+  background-color: red;
+  outline: 2px solid black;
+}
+
+/* Styling for the App buttons */
+.button-container {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*************************************************************************************************************************************************************/
+/* STYLING FOR THE GAME RULES PAGE */
+.game-rules-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 91.3vh;
+}
+
+.game-rules-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 60%;
+  height: 80vh;
+  border-radius: 0.5em;
+}
+
+/**REFERENCES**/
+/* 
+Text flashing effect:
+Researched and learned how to implement a flashing animation as aesthetics for the winning result display.
+Referenced information from the MDN Dev Docs website to implement this technique.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink 
+*/
