@@ -36,6 +36,8 @@ Downloading the repository:
 - From the _drop-down options_, select **Download Zip.**
 - This will download the repository to your local machine.
 
+![how to download snapshots](https://user-images.githubusercontent.com/78513588/215489250-86cf0036-bb91-4e79-af8b-ae9bba8b028e.png)
+
 Once the repository has been downloaded, execute the following steps:
 
 - Open the **memory-game** folder in the VS code editor or editor of choice.
@@ -68,6 +70,12 @@ To play the game:
 - Once both cards are _flipped over_, and the images **MATCH**, you **WIN** the game.
 - Once both cards are _flipped over_, and the images **DO NOT MATCH**, you **LOSE** the game.
 - You have a MAXIMUM of 2 attempts at any given turn.
+
+![Landing page](https://user-images.githubusercontent.com/78513588/215489417-41c5bf7b-c123-4cae-8a03-44c8c85075d9.png)
+
+![Card Game Page](https://user-images.githubusercontent.com/78513588/215489500-2e18f4bf-6e61-4df8-a5c7-82165a55a012.png)
+
+![Rules page](https://user-images.githubusercontent.com/78513588/215489593-e836d17b-aaf8-4d8f-854c-837b333ccf1e.png)
 
 ## Credits Section:
 
